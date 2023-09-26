@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/kmW2MpC/Health.png",
+      "title": "Health Product",
+      "category": "Health",
+      "description": "A product designed to promote better health",
+      "price": 4999,
+      "title_color": "#33FF57",
+      "card_color": "#458B74",
+      "btn_color": "#698b69"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/1L0JBnx/Education.png",
+      "title": "Education Book",
+      "category": "Education",
+      "description": "An educational book to enhance your knowledge.",
+      "price": 2999,
+      "title_color": "#FF5733",
+      "card_color": "#c41e3a",
+      "btn_color": "#8b3a62"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/QPqp4Lv/Rectangle-4287.png",
+      "title": "Clothing Item",
+      "category": "Clothing",
+      "description": "A stylish clothing item for your wardrobe.",
+      "price": 7999,
+      "title_color": "#3366FF",
+      "card_color": "#c08081",
+      "btn_color": "#355e3b"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/Fh07DhR/Food.png",
+      "title": "Food Product",
+      "category": "Food",
+      "description": "Delicious and nutritious food product.",
+      "price": 999,
+      "title_color": "#FF3333",
+      "card_color": "#004953",
+      "btn_color": "#333333"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/kmW2MpC/Health.png",
+      "title": "Health Product",
+      "category": "Health",
+      "description": "Another product for a healthier you.",
+      "price": 3999,
+      "title_color": "#33FF57",
+      "card_color": "#458B74",
+      "btn_color": "#698b69"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/1L0JBnx/Education.png",
+      "title": "Education Book",
+      "category": "Education",
+      "description": "A second educational book to expand your knowledge.",
+      "price": 2499,
+      "title_color": "#FF5733",
+      "card_color": "#c41e3a",
+      "btn_color": "#8b3a62"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/QPqp4Lv/Rectangle-4287.png",
+      "title": "Clothing Item",
+      "category": "Clothing",
+      "description": "Another stylish clothing item for your wardrobe.",
+      "price": 8999,
+      "title_color": "#3366FF",
+      "card_color": "#c08081",
+      "btn_color": "#355e3b"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/Fh07DhR/Food.png",
+      "title": "Food Product",
+      "category": "Food",
+      "description": "More delicious and nutritious food for your enjoyment.",
+      "price": 1299,
+      "title_color": "#FF3333",
+      "card_color": "#004953",
+      "btn_color": "#333333"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/kmW2MpC/Health.png",
+      "title": "Health Product",
+      "category": "Health",
+      "description": "Yet another health product for your well-being.",
+      "price": 5999,
+      "title_color": "#33FF57",
+      "card_color": "#458B74",
+      "btn_color": "#698b69"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/1L0JBnx/Education.png",
+      "title": "Education Book",
+      "category": "Education",
+      "description": "A third educational book to enhance your learning.",
+      "price": 1999,
+      "title_color": "#FF5733",
+      "card_color": "#c41e3a",
+      "btn_color": "#8b3a62"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/QPqp4Lv/Rectangle-4287.png",
+      "title": "Clothing Item",
+      "category": "Clothing",
+      "description": "Yet another stylish clothing item for your wardrobe.",
+      "price": 9999,
+      "title_color": "#3366FF",
+      "card_color": "#c08081",
+      "btn_color": "#355e3b"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/Fh07DhR/Food.png",
+      "title": "Food Product",
+      "category": "Food",
+      "description": "Satisfy your taste buds with this delightful food product.",
+      "price": 1499,
+      "title_color": "#FF3333",
+      "card_color": "#004953",
+      "btn_color": "#333333"
+    }
+  ]
+  
