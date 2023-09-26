@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex gap-9 md:justify-between items-center">
       <div>
         {" "}
         <img src={pic} alt="" />
       </div>
       <div>
-        <ul className="flex gap-6">
-          <li className="text-xl font-bold">
+        <ul className="flex gap-2 md:gap-6">
+          <li className="text-base md:text-xl font-medium md:font-bold">
             <NavLink
               to="/"
               className={({ isActive, isPending }) =>
@@ -20,7 +20,7 @@ const Navbar = () => {
               HOME
             </NavLink>
           </li>
-          <li className="text-xl font-bold">
+          <li className="text-base md:text-xl font-medium md:font-bold">
             <NavLink
               to="/Donation"
               className={({ isActive, isPending }) =>
@@ -30,7 +30,7 @@ const Navbar = () => {
               Donation
             </NavLink>
           </li>
-          <li className="text-xl font-bold">
+          <li className="text-base md:text-xl font-medium md:font-bold">
             <NavLink
               to="/Statistics"
               className={({ isActive, isPending }) =>
