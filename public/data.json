@@ -2,7 +2,7 @@
     {
       "id": 1,
       "image": "https://i.ibb.co/kmW2MpC/Health.png",
-      "title": "Health Product",
+      "title": "good Health",
       "category": "Health",
       "description": "A product designed to promote better health",
       "price": 4999,
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "image": "https://i.ibb.co/1L0JBnx/Education.png",
-      "title": "Education Book",
+      "title": "Education future",
       "category": "Education",
       "description": "An educational book to enhance your knowledge.",
       "price": 2999,
@@ -46,7 +46,7 @@
     {
       "id": 5,
       "image": "https://i.ibb.co/kmW2MpC/Health.png",
-      "title": "Health Product",
+      "title": "good Health",
       "category": "Health",
       "description": "Another product for a healthier you.",
       "price": 3999,
@@ -57,7 +57,7 @@
     {
       "id": 6,
       "image": "https://i.ibb.co/1L0JBnx/Education.png",
-      "title": "Education Book",
+      "title": "Education future",
       "category": "Education",
       "description": "A second educational book to expand your knowledge.",
       "price": 2499,
@@ -90,7 +90,7 @@
     {
       "id": 9,
       "image": "https://i.ibb.co/kmW2MpC/Health.png",
-      "title": "Health Product",
+      "title": "good Health",
       "category": "Health",
       "description": "Yet another health product for your well-being.",
       "price": 5999,
@@ -101,7 +101,7 @@
     {
       "id": 10,
       "image": "https://i.ibb.co/1L0JBnx/Education.png",
-      "title": "Education Book",
+      "title": "Education future",
       "category": "Education",
       "description": "A third educational book to enhance your learning.",
       "price": 1999,

@@ -10,6 +10,7 @@ import MainLayout from './components/MainLayout/MainLayout';
 import Home from './components/home/home';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
+import Details from './components/details/details';
 
 
 
@@ -30,7 +31,13 @@ const router = createBrowserRouter([
       {
         path : "/Statistics",
         element:<Statistics></Statistics>
+      },
+      {
+        path : "/details/:id",
+        element: <Details></Details>,
+        loader :() => fetch("/data.json")
       }
+
     ]
   },
 ]);
