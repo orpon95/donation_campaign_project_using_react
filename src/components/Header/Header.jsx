@@ -1,7 +1,30 @@
-const Header = () => {
+/* eslint-disable react/prop-types */
+
+import { createContext, useRef, useState } from "react";
+
+const Header = ({prop}) => {
+  // console.log(prop)
+  // prop("ahahs")
   
-  return (
+
+  const inpRef = useRef(null);
+  
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const inpRefValue = inpRef.current.value;
+    prop(inpRefValue)
     
+    
+    
+    // console.log(inpRefValue);
+  };
+  
+
+
+  
+
+  return (
     <div>
       <div
         className="hero min-h-screen my-6"
@@ -18,13 +41,17 @@ const Header = () => {
             </h1>
             <div className="mt-4">
               <input
+                ref={inpRef}
                 type="text"
                 name=""
                 id=""
                 placeholder="search"
-                className=" border border-gray-500 border-[1] rounded-lg mr-1 p-2"
+                className=" border border-gray-500 border-[1] rounded-lg mr-1 p-2 text-black"
               />
-              <button className="btn-secondary bg-[#FF444A] py-2 px-3 rounded-lg">
+              <button
+                onClick={handleSubmit}
+                className="btn-secondary bg-[#FF444A] py-2 px-3 rounded-lg"
+              >
                 Search
               </button>
             </div>

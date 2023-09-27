@@ -2,7 +2,7 @@
 
 import { useNavigate } from "react-router-dom";
 
-const Category = ({ data }) => {
+const Category = ({data}) => {
   // console.log(data);
   const nevigate = useNavigate()
 
