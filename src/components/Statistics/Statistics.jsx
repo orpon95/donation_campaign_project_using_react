@@ -44,7 +44,7 @@ const Statistics = () => {
     labels: ["Your donation", "Total left donation"],
   };
 
-  return <div className="w-[30%]   border-2 border-red-600 border-solid text-center mx-auto my-auto">{!storageData ? <p>no dddata</p> : <Pie data={data}></Pie>}</div>;
+  return <div className=" w-[50%] md:w-[30%]    text-center mx-auto my-auto">{!storageData ? <p>no dddata</p> : <Pie data={data}></Pie>}</div>;
 };
 
 export default Statistics;

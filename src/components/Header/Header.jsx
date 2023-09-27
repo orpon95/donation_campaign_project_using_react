@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { createContext, useRef, useState } from "react";
+import pic from "../../../public/Resources/Clothing.png"
 
 const Header = ({prop}) => {
   // console.log(prop)
@@ -30,7 +31,7 @@ const Header = ({prop}) => {
         className="hero min-h-screen my-6"
         style={{
           backgroundImage:
-            "url('../../../public/Resources/Rectangle 4287.png')",
+            `url( ${pic})`,
         }}
       >
         <div className="bg-white hero-overlay bg-opacity-60"></div>
