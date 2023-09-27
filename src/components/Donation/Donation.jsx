@@ -15,7 +15,7 @@ const Donation = () => {
     }
   }, []);
   console.log(donates);
-  const btn_hidden = show ? "none" : "block";
+  const btn_hidden = show   ? "none" : "block";
   return (
     <div>
       {nodonate ? (

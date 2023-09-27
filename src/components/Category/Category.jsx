@@ -14,7 +14,7 @@ const color = data.title== "good Health" ? `${data.title_color}` :  data.title==
  const bgColor = data.title== "good Health" ? `${data.card_color}` :  data.title== "Education future" ? `${data.card_color}` : data.title== "Clothing Item" ? `${data.card_color}` : data.title== "Food Product" ? `${data.card_color}`: 'black';
  const btn_color = data.title== "good Health" ? `${data.btn_color}` :  data.title== "Education future" ? `${data.btn_color}` : data.title== "Clothing Item" ? `${data.btn_color}` : data.title== "Food Product" ? `${data.btn_color}`: 'black';
  return (
-    <div onClick={handleClick} className="border-2 border-red-500 border-solid">
+    <div onClick={handleClick} className="">
       <div style={{backgroundColor :bgColor}}  className=" relative flex  flex-col rounded-xl  bg-clip-border text-gray-700 shadow-md">
         <div className="relative  h-[180px] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
           <img

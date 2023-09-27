@@ -6,9 +6,9 @@
       "category": "Health",
       "description": "A product designed to promote better health",
       "price": 4999,
-      "title_color": "#33FF57",
-      "card_color": "#458B74",
-      "btn_color": "#698b69"
+      "title_color": "#0052FF",
+      "card_color": "#0052ff26",
+      "btn_color": "#0052ff33"
     },
     {
       "id": 2,
@@ -17,9 +17,9 @@
       "category": "Education",
       "description": "An educational book to enhance your knowledge.",
       "price": 2999,
-      "title_color": "#FF5733",
-      "card_color": "#c41e3a",
-      "btn_color": "#8b3a62"
+      "title_color": "#FF444A",
+      "card_color": "#ff444a26",
+      "btn_color": "#ff444a33"
     },
     {
       "id": 3,
@@ -28,9 +28,9 @@
       "category": "Clothing",
       "description": "A stylish clothing item for your wardrobe.",
       "price": 7999,
-      "title_color": "#3366FF",
-      "card_color": "#c08081",
-      "btn_color": "#355e3b"
+      "title_color": "#79C23F",
+      "card_color": "#7cc23f26",
+      "btn_color": "#7cc23f33"
     },
     {
       "id": 4,
@@ -39,9 +39,9 @@
       "category": "Food",
       "description": "Delicious and nutritious food product.",
       "price": 999,
-      "title_color": "#FF3333",
-      "card_color": "#004953",
-      "btn_color": "#333333"
+      "title_color": "#F87147",
+      "card_color": "#f8714726",
+      "btn_color": "#f8714733"
     },
     {
       "id": 5,
@@ -50,9 +50,9 @@
       "category": "Health",
       "description": "Another product for a healthier you.",
       "price": 3999,
-      "title_color": "#33FF57",
-      "card_color": "#458B74",
-      "btn_color": "#698b69"
+      "title_color": "#0052FF",
+      "card_color": "#0052ff26",
+      "btn_color": "#0052ff33"
     },
     {
       "id": 6,
@@ -61,9 +61,9 @@
       "category": "Education",
       "description": "A second educational book to expand your knowledge.",
       "price": 2499,
-      "title_color": "#FF5733",
-      "card_color": "#c41e3a",
-      "btn_color": "#8b3a62"
+      "title_color": "#FF444A",
+      "card_color": "#ff444a26",
+      "btn_color": "#ff444a33"
     },
     {
       "id": 7,
@@ -72,9 +72,9 @@
       "category": "Clothing",
       "description": "Another stylish clothing item for your wardrobe.",
       "price": 8999,
-      "title_color": "#3366FF",
-      "card_color": "#c08081",
-      "btn_color": "#355e3b"
+      "title_color": "#79C23F",
+      "card_color": "#7cc23f26",
+      "btn_color": "#7cc23f33"
     },
     {
       "id": 8,
@@ -83,9 +83,9 @@
       "category": "Food",
       "description": "More delicious and nutritious food for your enjoyment.",
       "price": 1299,
-      "title_color": "#FF3333",
-      "card_color": "#004953",
-      "btn_color": "#333333"
+      "title_color": "#F87147",
+      "card_color": "#f8714726",
+      "btn_color": "#f8714733"
     },
     {
       "id": 9,
@@ -94,9 +94,9 @@
       "category": "Health",
       "description": "Yet another health product for your well-being.",
       "price": 5999,
-      "title_color": "#33FF57",
-      "card_color": "#458B74",
-      "btn_color": "#698b69"
+      "title_color": "#0052FF",
+      "card_color": "#0052ff26",
+      "btn_color": "#0052ff33"
     },
     {
       "id": 10,
@@ -105,9 +105,9 @@
       "category": "Education",
       "description": "A third educational book to enhance your learning.",
       "price": 1999,
-      "title_color": "#FF5733",
-      "card_color": "#c41e3a",
-      "btn_color": "#8b3a62"
+      "title_color": "#FF444A",
+      "card_color": "#ff444a26",
+      "btn_color": "#ff444a33"
     },
     {
       "id": 11,
@@ -116,9 +116,9 @@
       "category": "Clothing",
       "description": "Yet another stylish clothing item for your wardrobe.",
       "price": 9999,
-      "title_color": "#3366FF",
-      "card_color": "#c08081",
-      "btn_color": "#355e3b"
+      "title_color": "#79C23F",
+      "card_color": "#7cc23f26",
+      "btn_color": "#7cc23f33"
     },
     {
       "id": 12,
@@ -127,9 +127,9 @@
       "category": "Food",
       "description": "Satisfy your taste buds with this delightful food product.",
       "price": 1499,
-      "title_color": "#FF3333",
-      "card_color": "#004953",
-      "btn_color": "#333333"
+      "title_color": "#F87147",
+      "card_color": "#f8714726",
+      "btn_color": "#f8714733"
     }
   ]
   

@@ -11,6 +11,7 @@ import Home from './components/home/home';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
 import Details from './components/details/details';
+import Error from './Error/Error';
 
 
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement : <Error></Error>,
     children: [
       {
         path: "/",

@@ -33,7 +33,7 @@ const Details = () => {
     if (!getDonate) {
       addDonate.push(details);
       localStorage.setItem("donate", JSON.stringify(addDonate));
-      swal("successfullly added");
+      swal("successfullly donated");
     } else {
       const exists = getDonate.find(
         (singleDonate) =>( singleDonate.id )== details.id
@@ -41,7 +41,7 @@ const Details = () => {
       if (!exists) {
         addDonate.push(...getDonate, details);
         localStorage.setItem("donate", JSON.stringify(addDonate));
-        swal("successfullly added")
+        swal("successfullly donated")
       }
       else(
         swal("already exists")
