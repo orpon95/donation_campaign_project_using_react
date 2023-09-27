@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { json, useLoaderData, useParams } from "react-router-dom";
+import swal from 'sweetalert';
 
 const Details = () => {
   const { id } = useParams();
@@ -11,7 +12,7 @@ const Details = () => {
     const findDetails = datas.find((data) => data.id == id);
 
     setDetails(findDetails);
-    console.log(details.title_color);
+    // console.log(details.title_color);
   }, [id, datas, details]);
 
   const color =
@@ -24,6 +25,31 @@ const Details = () => {
       : details.title == "Food Product"
       ? `${details.title_color}`
       : "black";
+
+  const handleAdd = () => {
+    const addDonate = [];
+
+    const getDonate = JSON.parse(localStorage.getItem("donate"));
+    if (!getDonate) {
+      addDonate.push(details);
+      localStorage.setItem("donate", JSON.stringify(addDonate));
+      swal("successfullly added");
+    } else {
+      const exists = getDonate.find(
+        (singleDonate) =>( singleDonate.id )== details.id
+      );
+      if (!exists) {
+        addDonate.push(...getDonate, details);
+        localStorage.setItem("donate", JSON.stringify(addDonate));
+        swal("successfullly added")
+      }
+      else(
+        swal("already exists")
+      )
+
+      // alert("added")
+    }
+  };
   return (
     <div>
       <div className="relative flex w-full my-5 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -32,6 +58,7 @@ const Details = () => {
 
           <div className="absolute bottom-0  bg-black py-6 px-8  bg-opacity-60 justify-start ali w-full flex">
             <button
+              onClick={handleAdd}
               style={{ backgroundColor: color }}
               className="select-none rounded-lg  py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               type="button"
@@ -44,12 +71,10 @@ const Details = () => {
 
         <div className="p-6">
           <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-            UI/UX Review Check
+            {details.title}
           </h5>
           <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-            The place is close to Barceloneta Beach and bus stop just 2 min by
-            walk and near to "Naviglio" where you can enjoy the main night life
-            in Barcelona.
+            {details.description}
           </p>
         </div>
       </div>
